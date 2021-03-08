@@ -1,0 +1,19 @@
+.card {
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    img{
+        display: block;
+        min-width: 200px;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        border-radius: 50%;
+    }
+    img.card-open {
+        width: 100%;
+    }
+    img.card-closed {
+        width: 100%;
+    }
+}
